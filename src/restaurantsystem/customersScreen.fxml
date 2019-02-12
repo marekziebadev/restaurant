@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TreeTableColumn?>
+<?import javafx.scene.control.TreeTableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane id="AnchorPane" prefHeight="720.0" prefWidth="1366.0" style="-fx-background-image:url(img/breakfast-690128_1920.jpg)" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="restaurantsystem.CustomersScreenController">
+   <children>
+      <TreeTableView fx:id="treeView" layoutX="254.0" layoutY="91.0" opacity="0.7" prefHeight="561.0" prefWidth="1326.0" stylesheets="@restaurant.css" AnchorPane.bottomAnchor="149.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="10.0">
+        <columns>
+          <TreeTableColumn prefWidth="75.0" text="C1" />
+          <TreeTableColumn prefWidth="75.0" text="C2" />
+        </columns>
+      </TreeTableView>
+      <Pane layoutX="21.0" layoutY="606.0" opacity="0.7" prefHeight="86.0" prefWidth="450.0" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="28.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="606.0">
+         <children>
+            <Button fx:id="search" layoutX="520.0" layoutY="31.0" mnemonicParsing="false" onMouseClicked="#searchByTableNumber" text="Search" />
+            <Button fx:id="back" layoutX="867.0" layoutY="31.0" mnemonicParsing="false" onMouseClicked="#backToHome" prefHeight="25.0" prefWidth="52.0" text="Back" />
+            <TextField fx:id="searchText" layoutX="589.0" layoutY="31.0" promptText="Search by table number" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

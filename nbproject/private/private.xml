@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/kom1/Documents/NetBeansProjects/RestaurantSystem/src/restaurantsystem/Customer.java</file>
+            <file>file:/C:/Users/kom1/Documents/NetBeansProjects/RestaurantSystem/src/restaurantsystem/RestaurantSystem.java</file>
+            <file>file:/C:/Users/kom1/Documents/NetBeansProjects/RestaurantSystem/src/restaurantsystem/UserScreenController.java</file>
+            <file>file:/C:/Users/kom1/Documents/NetBeansProjects/RestaurantSystem/src/restaurantsystem/ReservationScreenController.java</file>
+            <file>file:/C:/Users/kom1/Documents/NetBeansProjects/RestaurantSystem/src/restaurantsystem/CustomersScreenController.java</file>
+            <file>file:/C:/Users/kom1/Documents/NetBeansProjects/RestaurantSystem/src/restaurantsystem/adminScreen.fxml</file>
+            <file>file:/C:/Users/kom1/Documents/NetBeansProjects/RestaurantSystem/src/restaurantsystem/restaurant.css</file>
+            <file>file:/C:/Users/kom1/Documents/NetBeansProjects/RestaurantSystem/src/restaurantsystem/loginScreen.fxml</file>
+            <file>file:/C:/Users/kom1/Documents/NetBeansProjects/RestaurantSystem/src/restaurantsystem/LoginScreenController.java</file>
+            <file>file:/C:/Users/kom1/Documents/NetBeansProjects/RestaurantSystem/src/restaurantsystem/startScreen.fxml</file>
+            <file>file:/C:/Users/kom1/Documents/NetBeansProjects/RestaurantSystem/src/restaurantsystem/availableTable.fxml</file>
+            <file>file:/C:/Users/kom1/Documents/NetBeansProjects/RestaurantSystem/src/img/x-1152114.svg</file>
+            <file>file:/C:/Users/kom1/Documents/NetBeansProjects/RestaurantSystem/src/restaurantsystem/DBConnection.java</file>
+            <file>file:/C:/Users/kom1/Documents/NetBeansProjects/RestaurantSystem/src/restaurantsystem/AdminScreenController.java</file>
+            <file>file:/C:/Users/kom1/Documents/NetBeansProjects/RestaurantSystem/src/restaurantsystem/Table.java</file>
+            <file>file:/C:/Users/kom1/Documents/NetBeansProjects/RestaurantSystem/src/restaurantsystem/AvailableTableController.java</file>
+            <file>file:/C:/Users/kom1/Documents/NetBeansProjects/RestaurantSystem/src/restaurantsystem/customersScreen.fxml</file>
+            <file>file:/C:/Users/kom1/Documents/NetBeansProjects/RestaurantSystem/src/restaurantsystem/ReservationScreen.fxml</file>
+            <file>file:/C:/Users/kom1/Documents/NetBeansProjects/RestaurantSystem/src/restaurantsystem/userScreen.fxml</file>
+            <file>file:/C:/Users/kom1/Documents/NetBeansProjects/RestaurantSystem/src/restaurantsystem/startScreenController.java</file>
+        </group>
+    </open-files>
+</project-private>

@@ -1,0 +1,27 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2019-02-10, 21:04:57
+    Author     : kom1
+*/
+
+.tree-table-view{
+    -fx-tree-table-color:  #09e2a7;
+    -fx-tree-table-rippler-color : rgba(255, 0, 0, 0.9);
+        -fx-rippler-fill:#ffffff;
+
+}
+.tree-table-view:focused .tree-table-row-cell:selected {
+    -fx-background-color: -fx-tree-table-color  ;
+    -fx-table-cell-border-color: -fx-tree-table-color;
+}
+.tree-table-row-cell:hover {
+    
+    -fx-background-color: #fec611  ;
+}
+.tree-table-row-cell .jfx-rippler{
+    -fx-rippler-fill:#ffffff;
+}

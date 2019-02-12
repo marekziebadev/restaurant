@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane fx:id="stackpane" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="restaurantsystem.UserScreenController">
+   <children>
+      <AnchorPane id="AnchorPane" prefHeight="730.0" prefWidth="1366.0" style="-fx-background-image:url(img/friends-581753_1920.jpg)">
+         <children>
+            <Pane fx:id="pane_2" layoutX="783.0" layoutY="191.0" onMouseClicked="#employees" onMouseEntered="#pane_2_hover" onMouseExited="#pane_2_exited" opacity="0.66" prefHeight="200.0" prefWidth="200.0" style="-fx-background-radius: 6px; -fx-background-color: #fff;">
+               <children>
+                  <ImageView fitHeight="90.0" fitWidth="90.0" layoutX="55.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/table-2715994_640.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="34.0" layoutY="129.0" text="Wyszukaj stolik">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane fx:id="pane_1" layoutX="383.0" layoutY="191.0" onMouseClicked="#reservation" onMouseEntered="#pane_1_hover" onMouseExited="#pane_1_exited" opacity="0.66" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #fff;">
+               <children>
+                  <ImageView fitHeight="90.0" fitWidth="90.0" layoutX="55.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/174444.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="50.0" layoutY="129.0" text="Zarezerwuj">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane fx:id="pane_4" layoutX="383.0" layoutY="440.0" onMouseClicked="#logout" onMouseEntered="#pane_4_hover" onMouseExited="#pane_4_exited" opacity="0.66" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #fff;">
+               <children>
+                  <ImageView fitHeight="90.0" fitWidth="90.0" layoutX="55.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/exit-321143_640.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="60.0" layoutY="128.0" text="Wyloguj">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane fx:id="pane_5" layoutX="783.0" layoutY="440.0" onMouseClicked="#exit" onMouseEntered="#pane_5_hover" onMouseExited="#pane_5_exited" opacity="0.66" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #fff;">
+               <children>
+                  <ImageView fitHeight="90.0" fitWidth="90.0" layoutX="55.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/door-576282_640.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="68.0" layoutY="129.0" text="Wyjście">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>
